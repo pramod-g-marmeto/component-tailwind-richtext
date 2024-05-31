@@ -1,6 +1,6 @@
 # Component Tailwind Richtext
 
-Use this section to render any richtex sections on your store
+Use this section to render any RICHTEXT sections on your store
 
 **Live Preview Link**: https://levi.in/?_ab=0&_fd=0&_sc=1&preview_theme_id=168415723810
 
