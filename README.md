@@ -1,6 +1,6 @@
-# Sample Component
+# Component Tailwind Richtext
 
-Utilize this section to detail the component, explaining the specific problem it addresses, its ideal use cases, and step-by-step instructions on how to implement it. This comprehensive description will help users understand its relevance and functionality, ensuring they can effectively integrate and leverage the component in their Shopify storefronts. 
+Use this section to render any richtex sections on your store
 
 **Live Preview Link**: https://levi.in/?_ab=0&_fd=0&_sc=1&preview_theme_id=168415723810
 
