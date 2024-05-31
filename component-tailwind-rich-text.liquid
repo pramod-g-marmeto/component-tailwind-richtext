@@ -21,7 +21,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
-              <h2 lass="{{ block.settings.heading_size }} tw-mb-4 tw-leading-normal" {{ block.shopify_attributes }}>
+              <h2 class="{{ block.settings.heading_size }} tw-mb-4 tw-leading-normal" {{ block.shopify_attributes }}>
                 {{ block.settings.heading }}
               </h2>
             {%- when 'caption' -%}
