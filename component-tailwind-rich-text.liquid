@@ -16,7 +16,7 @@
 
 <div class="tw-isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="tw-z-[1] color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
-    <div class="tw-flex tw-justify-center md:tw-w-full rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
+    <div class="tw-flex tw-justify-center md:tw-w-full rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <div class="tw-w-full md:tw-w-[75%] {{ section.settings.content_alignment }}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -29,7 +29,7 @@
               </h2>
             {%- when 'caption' -%}
               <p
-                class="{{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="{{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}"
                 {{ block.shopify_attributes }}
               >
                 {{ block.settings.caption | escape }}
